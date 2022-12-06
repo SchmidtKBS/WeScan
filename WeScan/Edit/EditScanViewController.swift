@@ -35,7 +35,7 @@ final class EditScanViewController: UIViewController {
     }()
     
     private lazy var nextButton: UIButton = {
-        let title = NSLocalizedString("wescan_edit_button_next", tableName: nil, bundle: Bundle(for: EditScanViewController.self), comment: "The forward footer button")
+        let title = "Weiter"
         
         let button = UIButton(type: .custom)
         
@@ -49,7 +49,7 @@ final class EditScanViewController: UIViewController {
     }()
     
     private lazy var cancelButton: UIBarButtonItem = {
-        let title = NSLocalizedString("wescan_scan_button_cancel", tableName: nil, bundle: Bundle(for: EditScanViewController.self), comment: "The cancel button for the scan view")
+        let title = "Abbrechen"
         
         var button = UIBarButtonItem(title: "✕", style: .plain, target: self, action: #selector(cancelButtonTapped))
         if #available(iOS 13.0, *) {
@@ -105,7 +105,7 @@ final class EditScanViewController: UIViewController {
             navigationItem.rightBarButtonItem = nil
         }
         
-        title = NSLocalizedString("wescan_edit_title", tableName: nil, bundle: Bundle(for: EditScanViewController.self), comment: "The navigation bar title for the edit view")
+        title = "Überprüfen"
         
         let titleLabel = UILabel()
         titleLabel.backgroundColor = .clear
