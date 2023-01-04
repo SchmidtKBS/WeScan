@@ -42,7 +42,7 @@ final class ReviewViewController: UIViewController {
     }()
     
     private lazy var doneButton: UIButton = {        
-        let title = NSLocalizedString("wescan_review_button_done", tableName: nil, bundle: Bundle(for: EditScanViewController.self), comment: "The done footer button")
+        let title = NSLocalizedString("wescan_review_button_done", comment: "The done footer button")
         
         let button = UIButton(type: .custom)
         
@@ -97,7 +97,7 @@ final class ReviewViewController: UIViewController {
             // Fallback on earlier versions
         }
         
-        title = NSLocalizedString("wescan_review_title", tableName: nil, bundle: Bundle(for: ReviewViewController.self), comment: "The navigation bar title for the review view")
+        title = NSLocalizedString("wescan_review_title", comment: "The navigation bar title for the review view")
     }
     
     override func viewWillAppear(_ animated: Bool) {
