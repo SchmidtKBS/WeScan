@@ -45,7 +45,7 @@ Changes made by kbs-fabfel for KBS.
 ## Requirements
 
 - Swift 5.0
-- iOS 10.0+
+- iOS 16.0+
 
 <br>
 
