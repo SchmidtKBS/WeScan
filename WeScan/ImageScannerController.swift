@@ -218,16 +218,16 @@ public struct ImageScannerResults {
     /// The detected rectangle which was used to generate the `scannedImage`.
     public var detectedRectangle: Quadrilateral
     
-    @available(*, unavailable, renamed: "originalScan")
+    @available(*, renamed: "originalScan")
     public var originalImage: UIImage?
     
-    @available(*, unavailable, renamed: "croppedScan")
+    @available(*, renamed: "croppedScan")
     public var scannedImage: UIImage?
     
-    @available(*, unavailable, renamed: "enhancedScan")
+    @available(*, renamed: "enhancedScan")
     public var enhancedImage: UIImage?
     
-    @available(*, unavailable, renamed: "doesUserPreferEnhancedScan")
+    @available(*, renamed: "doesUserPreferEnhancedScan")
     public var doesUserPreferEnhancedImage: Bool = false
     
     init(detectedRectangle: Quadrilateral, originalScan: ImageScannerScan, croppedScan: ImageScannerScan, enhancedScan: ImageScannerScan?, doesUserPreferEnhancedScan: Bool = false) {
