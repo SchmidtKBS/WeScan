@@ -221,7 +221,7 @@ public struct ImageScannerResults {
     @available(*, deprecated, renamed: "originalScan")
     public var originalImage: UIImage?
     
-    @available(*, deprecated,renamed: "croppedScan")
+    @available(*, deprecated, renamed: "croppedScan")
     public var scannedImage: UIImage?
     
     @available(*, deprecated, renamed: "enhancedScan")
