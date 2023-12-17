@@ -11,6 +11,7 @@ let package = Package(
         // dev .package(url: "https://github.com/danger/swift", from: "3.0.0"),
         // dev .package(path: "Submodules/WeTransfer-iOS-CI/Danger-Swift")
     ],
+    exclude: ["Info.plist"],
     targets: [
         // This is just an arbitrary Swift file in the app, that has
         // no dependencies outside of Foundation, the dependencies section
